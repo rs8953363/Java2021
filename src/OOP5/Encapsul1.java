@@ -1,13 +1,13 @@
 package OOP5;
 
-public class Encapsul {
+public class Encapsul1 {
     String name;
     long IDNumber;
     int salary;
 //Not all data need to be shared with other classes. So, removing the access to data and
 // not allowing some data to be changed in the object is called Encapsulation
     //To make these variables dynamic you can create a constructor
-    public Encapsul(String name, long IDNumber, int salary){
+    public Encapsul1(String name, long IDNumber, int salary){
         this.name = name;
         this.IDNumber = IDNumber;
         this.salary = salary;
