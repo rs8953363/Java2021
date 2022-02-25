@@ -63,5 +63,7 @@ public class StringManipulation3 {
         System.out.println(Double.parseDouble(s4) + Double.parseDouble(s5));//22.99
         System.out.println(Double.valueOf(s4) + Double.valueOf(s5));//22.99
 
+
+
 }
 }
