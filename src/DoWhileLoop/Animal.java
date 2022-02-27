@@ -1,6 +1,6 @@
-public class DoWhileVariablesConstructors {
-    public class Animal {
+package DoWhileLoop;
 
+public class Animal {
 
         public int age = 15;
         public String name = "cat";

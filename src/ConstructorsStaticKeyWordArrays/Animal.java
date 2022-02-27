@@ -1,5 +1,6 @@
-public class ConstructorsStaticKeyWordArrays {
-    public class Animal {
+package ConstructorsStaticKeyWordArrays;
+
+public class Animal {
 
         public String name = "Joe";
         public int weight = 78;
@@ -25,11 +26,5 @@ public class ConstructorsStaticKeyWordArrays {
             System.out.println("Moves");
         }
 
-
-
-
-
-
-
     }
-}
+

@@ -7,9 +7,7 @@ public class ReverseTriangle {
 		System.out.println("Enter an integer");
     int s = scan.nextInt();
 
-		for(
-    int i = s;
-    i>0;i--)
+		for(int i = s; i>0; i--)
 
     {
 

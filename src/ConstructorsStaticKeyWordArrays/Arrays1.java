@@ -1,7 +1,6 @@
 package ConstructorsStaticKeyWordArrays;
 
 public class Arrays1 {
-    public class Arrays01 {
 
 	/*
 	 	1)To store multiple values, we need "Arrays"
@@ -30,15 +29,15 @@ public class Arrays1 {
             array1[2] = 27;
             array1[3] = 33;
             array1[4] = 22;
-            System.out.println(Arrays.toString(array1));
+            System.out.println(Arrays1.toString(array1));
 
             //Second way to create and assign values
             String array2[] = {"Ali", "Can", "Kemal", "Mary"};
-            System.out.println(Arrays.toString(array2));
+            System.out.println(Arrays1.toString(array2));
 
             //How to update an element
             array2[1] = "Canan";
-            System.out.println(Arrays.toString(array2));
+            System.out.println(Arrays1.toString(array2));
 
             //How to add elements more than size
             //If you try to add elements more than the size the size of the array, you will get run time error.
@@ -51,7 +50,7 @@ public class Arrays1 {
             for(int i=0; i<array2.length; i++) {
                 array2[i] = "Joe";
             }
-            System.out.println(Arrays.toString(array2));
+            System.out.println(Arrays1.toString(array2));
 
             //How to print "array1" elements one by one on the console in different lines
             int k = 0;
@@ -74,8 +73,8 @@ public class Arrays1 {
             for(int i=0; i<array2.length; i++) {
                 array2[i] = array2[i].replace("J", "*");
             }
-            System.out.println(Arrays.toString(array2));
+            System.out.println(Arrays1.toString(array2));
 
         }
     }
-}
+

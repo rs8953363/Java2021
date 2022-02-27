@@ -5,22 +5,22 @@ public class Animal2 {
         public int weight ;
         public boolean herbivorous ;
 
-        public Animal() {
+        public Animal2() {
 
             System.out.println("1st constructor is executed");
         }
-        public Animal(String name) {
+        public Animal2(String name) {
             this("Ali",25,true);
             System.out.println("2nd constructor is executed");
             this.name = name;
         }
-        public Animal(String name, int weight) {
+        public Animal2(String name, int weight) {
             //this("Dog");
             System.out.println("3rd constructor is executed");
             this.name = name;
             this.weight = weight;
         }
-        public Animal(String name, int weight, boolean herbivorous) {
+        public Animal2(String name, int weight, boolean herbivorous) {
             //this("Sam");
             System.out.println("4rd constructor is executed");
             this.name = name;
@@ -30,7 +30,7 @@ public class Animal2 {
 
         public static void main(String[] args) {
 
-            Animal dog1=new Animal("Mark",34,false);
+            Animal2 dog1=new Animal2("Mark",34,false);
             System.out.println(dog1.name);//Mark
             System.out.println(dog1.weight);
             System.out.println(dog1.herbivorous);

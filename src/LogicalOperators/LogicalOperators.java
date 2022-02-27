@@ -1,3 +1,5 @@
+package LogicalOperators;
+
 public class LogicalOperators {
 
 	/*
