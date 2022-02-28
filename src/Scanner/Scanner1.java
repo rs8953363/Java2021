@@ -4,21 +4,21 @@ import java.util.*;
 
 public class Scanner1 {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter the parameters of the prism: ");
-        double length=scan.nextDouble();
-        double width=scan.nextDouble();
-        double height=scan.nextDouble();
+        /*
+		 	Type a program which calculates the area and the perimeter
+		 	of a rectangle whose length and width are entered by user.
+			Hint 1: Area of a rectangle is width x length
+			Hint 2: Perimeter of a rectangle is 2*(width + length)
+		*/
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Please enter the length of the rectangle");
-        length = scan.nextDouble();
+        System.out.println("Enter the length of the rectangle...");
+        double length = scanner.nextDouble();
 
-        System.out.println("Please enter the width of the rectangle");
-        width = scan.nextDouble();
+        System.out.println("Enter the width of the rectangle");
+        double width = scanner.nextDouble();
 
-        System.out.println("The are of the rectangle is " + length * width);
-        System.out.println("The perimeter of the rectangle is " + (length + width) * 2);
-
-        System.out.println("The volume of the rectangular prism is: "+(width*length*height));
+        System.out.println("Area:" + width*length);
+        System.out.println("Perimeter:" + 2*(width+length));
     }
-    }
+}
