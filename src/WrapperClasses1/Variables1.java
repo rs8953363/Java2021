@@ -55,6 +55,18 @@ public class Variables1 {
         //In float decimal you have 7 digits at most
         System.out.println(e/d);//1.3333334
 
+        //Autoboxing
+        int x = 12;
+        Integer y = x;
+        System.out.println(x);
+        System.out.println(y);
+
+        //Unboxing
+        Integer z = 23;
+        int t = z;
+        System.out.println(z);
+        System.out.println(t);
+
     }
 }
 

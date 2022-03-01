@@ -40,4 +40,17 @@
               byte < short < int < long < float < double
      */
 
+1)"==" ==> Checks a)values and b)addresses. If boath are same it returns true otherwise it returns false
+		 	2)"equals()" ==> Checks just the values by NOT Ignoring Cases.
+		 	3)"equalsIgnoreCase()" ==> Checks just the values by ignoring cases
+
+
+& and && have similar functionality.
+If you use &, Java checks all conditions everytime
+If you use &&, Java does not check the second condition if the first condition is false
+
+
+
+
+
 
