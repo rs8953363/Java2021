@@ -98,5 +98,5 @@ public class InstanceLocalAndClassVariables {
         return a+b;
     }
 }
-}
+
 
