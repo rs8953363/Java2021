@@ -29,7 +29,7 @@ public class ArrayList2 {
         for (int i = 1; i < list.size(); i++) {
             minDiff = Math.min(minDiff, list.get(i) - list.get(i - 1));
 
-            for (int i = 1; i < list.size(); i++) {
+            for (int j = 1; j < list.size(); i++) {
                 if (list.get(i) - list.get(i - 1) == minDiff) {
                     System.out.println(list.get(i) + " and " + list.get(i - 1));
                 }
