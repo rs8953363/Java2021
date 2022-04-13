@@ -1,4 +1,5 @@
 package Operators;
+import javax.naming.spi.DirStateFactory;
 import java.io.*;
 import java.math.*;
 import java.security.*;
@@ -32,20 +33,4 @@ public class MealCost {
 
 }
 
-public class Solution {
-    public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
-        double meal_cost = Double.parseDouble(bufferedReader.readLine().trim());
-
-        int tip_percent = Integer.parseInt(bufferedReader.readLine().trim());
-
-        int tax_percent = Integer.parseInt(bufferedReader.readLine().trim());
-
-        Result.solve(meal_cost, tip_percent, tax_percent);
-    }
-}
-
-        bufferedReader.close();
-    }
-}
