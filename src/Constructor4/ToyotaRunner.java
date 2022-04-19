@@ -10,6 +10,7 @@ public class ToyotaRunner {
         t1.yakit="Benzin";
         t1.yil=2022;
         System.out.println("T1 model: " +t1.model+ ", yakit : " + t1.yakit + ", yil : " + t1.yil);
+        t1.maxHiz();
         Toyota t2=new Toyota();
         System.out.println(t2.model); // null
         System.out.println(t2.marka); // Toyota
@@ -17,5 +18,6 @@ public class ToyotaRunner {
         t2.yakit="Benzin";
         t2.yil=2021;
         System.out.println("T2 model: " +t2.model+ ", yakit : " + t2.yakit + ", yil : " + t2.yil);
+        t2.renkTercihleri();
     }
 }
