@@ -9,6 +9,14 @@ public class Volvo {
         String yakit;
         boolean otomatikPilot=otomatikPilotSorgusu();
         int maxHiz=maxHizAta();
+        public Volvo(String mdl, boolean elk, int yl, String ykt) {
+            model=mdl;
+            elektrikliMi=elk;
+            yil=yl;
+            yakit=ykt;
+        }
+        public Volvo(){
+        }
         public int maxHizAta() {
             int maxHiz=0;
             if (elektrikliMi){
@@ -32,5 +40,4 @@ public class Volvo {
             return arabaOzellikleri;
         }
     }
-
 
