@@ -1,4 +1,4 @@
-package Varargs;
+package VarargsStringBuilder;
 
 public class Varargs {
 
