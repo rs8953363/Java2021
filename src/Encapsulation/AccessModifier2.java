@@ -2,7 +2,7 @@ package Encapsulation;
 
 public class AccessModifier2 {
     public static void main(String[] args) {
-        AccessModifier1 obj = new C01();
+        AccessModifier1 obj = new AccessModifier1();
         obj.acikString = "Bye";
         AccessModifier1.acikSayi = 50;
         // C01.sayi=15; private access modifier'i oldugundan baska class'dan erisilemez
