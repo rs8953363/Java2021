@@ -1,8 +1,15 @@
 package Inheritance;
 
 public class Personel {
-        public String isim;
-        protected String soyisim;
-        protected String adres;
-    }
+
+    // en ustteki class oldugu icin herkes icin var olan datalari
+    // burada olusturabiliriz
+    // kisisel bilgiler,
+    protected int persNo;
+    protected String isim;
+    protected String soyisim;
+    protected String adres;
+    protected String tel;
+
+}
 
