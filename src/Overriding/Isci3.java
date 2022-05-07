@@ -1,6 +1,8 @@
-package Inheritance;
+package Overriding;
 
-public class Isci3 extends Personel{
+import Inheritance.Personel;
+
+public class Isci3 extends Personel {
     public String statu="Isci";
     public String haklar="Isciler Kidem tazminati alirlar";
     public String ikramiye="Isciler Yilda bir ikramiye alir";
