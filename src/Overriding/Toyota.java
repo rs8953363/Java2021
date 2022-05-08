@@ -11,3 +11,4 @@ public class Toyota extends Araba{
         System.out.println("Toyata araclar 10 yil garantilidir");
     }
 }
+
