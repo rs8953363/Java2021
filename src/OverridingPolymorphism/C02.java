@@ -37,4 +37,4 @@ package OverridingPolymorphism;
             obj3.method2(); // parent method2
         }
     }
-}
+
