@@ -1,4 +1,4 @@
-package Exceptions;
+package GarbageAbstractClass;
 
 public abstract class C03_IlkAbstractClass {
     public abstract void AbstractMethod();

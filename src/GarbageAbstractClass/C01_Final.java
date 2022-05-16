@@ -1,4 +1,4 @@
-package Exceptions;
+package GarbageAbstractClass;
 
 public class C01_Final {
     final static double piSayisi= 3.14;
