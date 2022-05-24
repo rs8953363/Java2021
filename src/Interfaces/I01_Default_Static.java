@@ -1,4 +1,4 @@
-package Interfacces;
+package Interfaces;
 
 public interface I01_Default_Static {
     /*
