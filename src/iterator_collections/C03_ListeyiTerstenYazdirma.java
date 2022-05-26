@@ -18,7 +18,9 @@ public class C03_ListeyiTerstenYazdirma {
             itr.next();
         }
         while(itr.hasPrevious()){
-            System.out.print(itr.previous() + " ");
+                System.out.print(itr.previous() + " ");
+                System.out.println();
+
         }
     }
 }
