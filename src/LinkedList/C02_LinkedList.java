@@ -25,6 +25,8 @@ import java.util.LinkedList;
             System.out.println(ll1.peek());// ilk elementi silmeden bize dondurur,
             // bulamazsa null dondurur
             ll1.poll();
+            System.out.println();
+
         }
     }
 
