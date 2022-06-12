@@ -2,7 +2,7 @@ package StringMethods;
 
 import java.util.*;
 
-public class CountChars {
+public class   CountChars {
 
         public static void main(String[] args) {
 
