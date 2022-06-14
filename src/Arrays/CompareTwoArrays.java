@@ -11,5 +11,12 @@ public class CompareTwoArrays {
         Int [] num3 = {1, 2, 3};
 
         System.out.println (Arrays.equals (num1, num3)); //true
+
+        //Sort an Array
+        Int Marks [] = {12, 5, 7, 9};
+
+        Arrays.sort(Marks);
+
+        System.out.println(Arrays.toString(Marks));//[5, 7, 9, 12]
     }
 }
