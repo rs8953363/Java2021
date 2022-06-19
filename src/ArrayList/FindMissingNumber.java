@@ -1,6 +1,9 @@
 package ArrayList;
 
-    class findMissing{
+import java.util.ArrayList;
+import java.util.Random;
+
+class findMissing{
         static int find_missing(List<Integer> input) {
             // calculate sum of all elements
             // in input list
