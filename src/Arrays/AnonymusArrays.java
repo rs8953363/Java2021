@@ -18,5 +18,37 @@ public class AnonymusArrays {
         int[] cd = new int[50];
 
         ab = cd; //Compiler checks only type, not the size
+
+        //giCan you explain different steps of declaring multidimensional arrays in Java?
+
+//2D Arrays
+
+        int[][] twoArray1;
+
+        int twoArray2[][];
+
+        int[] twoArray3[];
+
+//3D Arrays
+
+        int[][][] threeArray1;
+
+        int threeArray2[][][];
+
+        int[] threeArray3[][];
+
+        int[][] threeArray4[];
+
+//4D Arrays
+
+        int[][][][] fourArray1;
+
+        int fourArray2[][][][];
+
+        int[] fourArray3[][][];
+
+        int[][] fourArray4[][];
+
+        int[][][] fourArray5[];
     }
 }
