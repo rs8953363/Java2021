@@ -16,5 +16,15 @@ public class ArrayExamples {
         int [] num3 = {1, 2, 3};
 
         System.out.println (Arrays.equals (num1, num3)); //true
+
+        int n = num1.length+1;
+
+        int total = n*(n+1)/2;
+
+        for(int i =0;i<num1.length;i++){
+
+            total -=num1[i];}
+
+        System.out.println(total);
     }
 }
