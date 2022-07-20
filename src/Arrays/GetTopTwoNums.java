@@ -1,10 +1,7 @@
 package Arrays;
 
+import java.util.Arrays;
 public class GetTopTwoNums {
-    public static void main(String[] args) {
-        import java.util.Arrays;
-
-        public class TopTwoMaximumNumbers{
 
             public static void main(String args[]) {
 
@@ -28,6 +25,7 @@ public class GetTopTwoNums {
 
                 System.out.println("First largest number is : " + max01);
 
-                System.out.println("Second largest number is : " + max02); } }
-    }
-}
+                System.out.println("Second largest number is : " + max02);
+
+            } }
+
