@@ -2,7 +2,6 @@ package Arrays;
 
 public class SecondLargest {
     public static void main(String[] args) {
-        public static void main(String[] args) {
 
             int myArr[] = { 14, 46, 47, 86, 92, 52, 48, 36, 66, 85 };
 
@@ -34,4 +33,4 @@ public class SecondLargest {
 
         }
     }
-}
+
