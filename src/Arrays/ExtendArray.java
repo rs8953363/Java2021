@@ -1,7 +1,7 @@
 package Arrays;
 
 public class ExtendArray {
-    Public static void main(String[] args) {
+    public static void main(String[] args) {
 
         String [] names = new String[] { "A", "B", "C" };
 

@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 public class SeparateZeros {
     static void moveZerosToEnd(int inputArray[]) { int counter = 0;
 

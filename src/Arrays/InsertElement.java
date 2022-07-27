@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 public class InsertElement {
     public static void main(String[] args) {
 
