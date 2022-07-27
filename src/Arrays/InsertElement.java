@@ -1,7 +1,7 @@
 package Arrays;
 
 public class InsertElement {
-    Public static void main(String[] args) {
+    public static void main(String[] args) {
 
         int[] my_array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49};
 
