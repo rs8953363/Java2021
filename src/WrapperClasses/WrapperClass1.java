@@ -1,4 +1,4 @@
-package WrapperClasses1;
+package WrapperClasses;
 
 public class WrapperClass1 {
 
